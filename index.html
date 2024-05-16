@@ -1,12 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap w/ Vite</title>
-    <script type="module" src="./js/main.js"></script>
-  </head>
-  <body>
-    <script type="module" src="./src/js/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap w/ Vite</title>
+  <script type="module" src="./js/main.js"></script>
+</head>
+
+<body>
+  <main>
+
+    <button id="nueva-categoria" type="button" class="btn btn-primary">New Category</button>
+
+    <table class="table table-hover table-striped table-bordered border-primary text-center">
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Image</th>
+          <th scope="col">Creation date</th>
+          <th scope="col">Last update</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+
+    </table>
+  </main>
+  <script type="module" src="./src/js/main.js"></script>
+</body>
+
 </html>
